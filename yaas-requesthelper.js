@@ -2,6 +2,7 @@
 
 var https = require('https');
 var querystring = require('querystring');
+var Promise = require('bluebird');
 
 var RequestHelper = function(theClientId, theClientSecret, theScope, theProjectId, overrideApiUrl) {
     /* Constants */
